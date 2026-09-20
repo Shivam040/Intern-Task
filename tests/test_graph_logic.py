@@ -1,7 +1,7 @@
 from app import graph
 
 def test_relevant_context_routes_to_generation(monkeypatch):
-    monkeypatch.setattr(graph.settings, "relevance_threshold", 0.35)
+    monkeypatch.setattr(graph.settings, "relevance_threshold", 0.60)
     state = {"context": [{"text": "x", "page": 1, "score": 0.72}], "score": 0.72}
 
     update = graph.check_relevance(state)

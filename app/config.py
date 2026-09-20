@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     
     # Pinecone
     pinecone_api_key: str | None = None
-    pinecone_index_name: str = "agentic-ai-ebook"
+    pinecone_index_name: str = "agentic-ai-ebook-768"
     pinecone_namespace: str = "ebook-v1"
     pinecone_cloud: str = "aws"
     pinecone_region: str = "us-east-1"
