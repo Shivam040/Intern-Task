@@ -23,7 +23,7 @@ class Settings(BaseSettings):
 
     # Retrieval
     top_k: int = 4
-    relevance_threshold: float = 0.35
+    relevance_threshold: float = 0.60
 
     # Chunking
     chunk_size: int = 1000

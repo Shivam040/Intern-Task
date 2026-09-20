@@ -6,3 +6,4 @@ pypdf>=5.0
 pydantic-settings>=2.7
 requests>=2.32
 pytest>=8.0
+fonttools>=4.0
